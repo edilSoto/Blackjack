@@ -1,0 +1,27 @@
+html, body {
+
+    background-color: #2F4F30;
+    margin: 0px;
+    color: antiquewhite
+}
+
+
+
+.titulo {
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+    padding: 25px;
+    font-size: 25px;
+}
+
+.carta {
+    width: 150px;
+    position: relative;
+    left: 100px;
+    margin-left: -75px;
+}
+
+.espacioCartas {
+    height: 220px;
+}

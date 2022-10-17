@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/css/styles.css">
+</head>
+<body>
+    <header class="titulo">Blackjack</header>
+    <div class="row mt-2">
+        <div id="divBotones" class="col text-center">
+            <button id="btnNuevoJuego" class="btn btn-danger">Nuevo juego</button>
+            <button id='btnPedir' class="btn btn-primary">Pedir carta</button>
+            <button id="btnDetener" class="btn btn-primary">Detener</button>
+        </div>
+    </div>
+    <div class="row container">
+        <div class="col">
+            <h1>Jugador - <small id="puntuacionJugador">0</small></h1>
+            <div class="espacioCartas"> <v v-if=""> </v>
+                
+            </div>
+        </div>
+    </div>
+    <div class="row container">
+        <div class="col">
+            <h1>Casa - <small id="puntuacionCasa">0</small></h1>
+            <div class="espacioCartas">
+                
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-umd-min.js"></script>
+    <script src="Assets/js/juego.js"></script>
+</body>
+</html>
